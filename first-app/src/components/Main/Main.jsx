@@ -4,6 +4,10 @@ import './Main.css'
 export const Main = () =>{
     return(
         <main>
+            <div>
+                <img src="" alt="foto de perfil" />
+            </div>
+
         <section>
             <h1>Hola, soy David Pescador 👋</h1>
             <p>Tecnólogo en Desarrollo de Software apasionado por el desarrollo web, la programación y las bases de datos.</p>
