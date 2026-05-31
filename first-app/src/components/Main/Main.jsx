@@ -1,5 +1,6 @@
 import React from "react"
 import './Main.css'
+import { Skills } from './Skills'
 
 export const Main = () =>{
     return(
@@ -29,32 +30,7 @@ export const Main = () =>{
             <p>Mi objetivo es seguir creciendo como desarrollador y participar en proyectos reales que me permitan adquirir experiencia profesional.</p>
         </section>
 
-        <section>
-            <h2>Habilidades</h2>
-
-            <h3>Lenguajes</h3>
-            <ul>
-                <li>Java</li>
-                <li>JavaScript</li>
-                <li>SQL</li>
-                <li>HTML</li>
-                <li>CSS</li>
-            </ul>
-
-            <h3>Bases de datos</h3>
-            <ul>
-                <li>MySQL</li>
-                <li>PostgreSQL</li>
-            </ul>
-
-            <h3>Herramientas</h3>
-            <ul>
-                <li>Git</li>
-                <li>GitHub</li>
-                <li>VS Code</li>
-                <li>IntelliJ IDEA</li>
-            </ul>
-        </section>     
+        <Skills/>
     </main>
     )
 }
