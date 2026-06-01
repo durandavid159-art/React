@@ -1,0 +1,20 @@
+.about {
+    grid-area: about;
+    padding: 2rem 0;
+    border-top: 0.5px solid var(--border);
+}
+
+.about h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 1.5rem;
+}
+
+.about p {
+    font-size: 15px;
+    color: var(--text-secondary);
+    line-height: 1.8;
+    margin-bottom: 1rem;
+    max-width: 600px;
+}
