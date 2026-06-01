@@ -1,0 +1,17 @@
+.other {
+    font-size: 14px;
+    color: var(--text-secondary);
+    transition: color 0.2s;
+    padding: 0 0.5rem;
+}
+
+.other:hover {
+    color: var(--text-primary);
+}
+
+.active {
+    font-size: 14px;
+    color: var(--accent);
+    font-weight: 500;
+    padding: 0 0.5rem;
+}
