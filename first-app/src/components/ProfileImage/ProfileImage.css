@@ -1,0 +1,16 @@
+.profile-image {
+    grid-area: image;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-image img {
+    width: 100%;
+    max-width: 350px;
+    height: 450px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50% 50% 50% 50% / 30% 20% 50% 30%;
+    border: 0.5px solid var(--border);
+}
