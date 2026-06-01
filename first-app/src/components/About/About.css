@@ -1,5 +1,6 @@
 .about {
     grid-area: about;
+    width: 100%;
     padding: 2rem 0;
     border-top: 0.5px solid var(--border);
 }

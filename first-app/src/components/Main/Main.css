@@ -5,7 +5,7 @@ main {
         "hero image"
         "about about"
         "skills skills";
-    gap: 2rem;
+    gap:  4rem 2rem;
     padding: 4rem 2rem;
     max-width: 1200px;
     margin: 0 auto;

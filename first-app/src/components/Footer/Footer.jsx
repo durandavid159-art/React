@@ -2,7 +2,7 @@ import React from 'react'
 import './Footer.css'
 
 export const Footer = () => (
-    <footer className="footer">
+    <footer className="footer" id="contacto">
         <h2>Contacto</h2>
         <p>¿Tienes un proyecto en mente? Hablemos.</p>
 

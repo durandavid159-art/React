@@ -33,3 +33,7 @@ ul {
 img {
   max-width: 100%;
 }
+
+section, footer {
+  scroll-margin-top: 70px;
+}

@@ -14,7 +14,7 @@ import githubImg from '../../assets/iconos/github.png'
 
 
 export const Skills = () => (
-    <section style={{ gridArea: 'skills' }}>
+    <section style={{ gridArea: 'skills', width: '100%'}} id="habilidades">
 
         <h2>Habilidades</h2>
 
