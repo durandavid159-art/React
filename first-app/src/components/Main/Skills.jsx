@@ -1,13 +1,40 @@
 import { SkillGroup } from '../SkillGroup/SkillGroup'
+
 import javaImg from '../../assets/iconos/java.png'
+import jsImg from '../../assets/iconos/js.png'
+import baseImg from '../../assets/iconos/sql-server.png'
+import htmlImg from '../../assets/iconos/html-5.png'
+
 import sqlImg from '../../assets/iconos/sql-server.png'
-import git from '../../assets/iconos/git.png'
+import postgreImg from '../../assets/iconos/postgre.png'
+
+import gitImg from '../../assets/iconos/git.png'
+import githubImg from '../../assets/iconos/github.png'
+
+
 
 export const Skills = () => (
-    <section>
+    <section style={{ gridArea: 'skills' }}>
+
         <h2>Habilidades</h2>
-        <SkillGroup title="Lenguajes" item1="Java" img1={javaImg} item2="JavaScript" item3="SQL" item4="HTML" />
-        <SkillGroup title="Bases de datos" item1="MySQL" img1={sqlImg} item2="PostgreSQL" />
-        <SkillGroup title="Herramientas" item1="Git" img1={git} item2="GitHub" item3="VS Code" item4="IntelliJ IDEA" />
+
+        <SkillGroup title="Lenguajes" 
+                    item1="Java" img1={javaImg} 
+                    item2="JavaScript" img2={jsImg}
+                    item3="SQL" img3={baseImg}
+                    item4="HTML" img4={htmlImg}
+        />
+
+        <SkillGroup title="Bases de datos" 
+            item1="MySQL" img1={sqlImg} 
+            item2="PostgreSQL" img2={postgreImg} 
+        />
+
+        <SkillGroup title="Herramientas" 
+            item1="Git" img1={gitImg} 
+            item2="GitHub" img2={githubImg}
+            item3="VS Code" 
+            item4="IntelliJ IDEA" 
+        />
     </section>
 )

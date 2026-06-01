@@ -1,3 +1,4 @@
+import './ItemNavbar.css'
 
 export const ItemNavbar = ({ ItemContent = 'otro Item', styles = 'other' }) => (
 

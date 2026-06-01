@@ -1,12 +1,12 @@
 import { ItemNavbar } from '../itemNavbar/itemNavbar'
 
 export const Navbar = () => (
-    <nav>
-        <ul>
-        <ItemNavbar ItemContent="Inicio" />
-        <ItemNavbar ItemContent="Sobre mi" />
-        <ItemNavbar ItemContent="Habilidades" />
-        <ItemNavbar ItemContent="Contacto" />
-        </ul>
-    </nav>
+  <nav>
+    <ul style={{ display: 'flex', gap: '2rem', listStyle: 'none', margin: 0, padding: 0 }}>
+      <ItemNavbar ItemContent="Inicio" styles="active" />
+      <ItemNavbar ItemContent="Sobre mi" styles="other" />
+      <ItemNavbar ItemContent="Habilidades" styles="other" />
+      <ItemNavbar ItemContent="Contacto" styles="other" />
+    </ul>
+  </nav>
 )
