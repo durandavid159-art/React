@@ -24,3 +24,25 @@
     color: var(--text-secondary);
     font-weight: 400;
 }
+
+@media (max-width: 920px) {
+    .header nav ul {
+        gap: 1rem;
+    }
+
+    .header nav ul li a {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 0.8rem 1rem;
+    }
+
+    .header nav ul {
+        gap: 0.5rem;
+    }
+}

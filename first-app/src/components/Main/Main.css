@@ -10,3 +10,28 @@ main {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+@media (max-width: 920px) {
+    main {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "image"
+        "hero"
+        "about"
+        "skills";
+        padding: 2rem 1.5rem;
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 769px) {
+    main {
+        padding: 2rem 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    main {
+        padding: 1.5rem 1rem;
+    }
+}
