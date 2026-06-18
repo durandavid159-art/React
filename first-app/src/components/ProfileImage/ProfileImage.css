@@ -11,6 +11,6 @@
     height: 450px;
     object-fit: cover;
     object-position: top;
-    border-radius: 50% 50% 50% 50% / 30% 20% 50% 30%;
+    border-radius: 50% 50% 50% 50% / 25% 25% 59% 59%;
     border: 0.5px solid var(--border);
 }
